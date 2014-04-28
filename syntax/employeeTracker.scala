@@ -1,17 +1,24 @@
 import util.Random
 
+// does not handle incorrect input
+
 object employeeTracker {
 
   case class Employee (name: String, monthsEmployeed: Int) {
     private val Age = Random.nextInt (90)
     def employeeAge () = Age
   }
-  
-  def main(args: Array[String]): Unit = {
-    val employeeOne = new Employee ("Jeff", 5)
-    println(employeeOne.name)
-    println(employeeOne.monthsEmployeed)
-    println(employeeOne.employeeAge())
 
+  def main(args: Array[String]): Unit = {
+    val employeeList = List (Employee("Jeff", 24), 
+                             Employee("Jon", 12), 
+                             Employee ("Samantha", 28), 
+                             Employee ("Emily", 6), 
+                             Employee ("Mildred", 3))
+    employeeList.map { employee =>
+      print (employee.name + " has worked here for " + employee.monthsEmployeed + " months and is ") 
+      print (employee.employeeAge())
+      println (" years old")
+    }
   }
 } 
