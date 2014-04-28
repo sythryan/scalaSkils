@@ -5,8 +5,7 @@ import util.Random
 object employeeTracker {
 
   case class Employee (name: String, monthsEmployeed: Int) {
-    private val Age = Random.nextInt (90)
-    def employeeAge () = Age
+    def employeeAge () = Random.nextInt (90)
   }
 
   def main(args: Array[String]): Unit = {
