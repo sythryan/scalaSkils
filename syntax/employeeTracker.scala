@@ -3,7 +3,7 @@ import util.Random
 object employeeTracker {
 
   case class Employee (name: String, monthsEmployeed: Int) {
-    private val Age = new Random.nextInt()
+    private val Age = Random.nextInt (90)
     def employeeAge () = Age
   }
   
@@ -14,4 +14,4 @@ object employeeTracker {
     println(employeeOne.employeeAge())
 
   }
-}
+} 
