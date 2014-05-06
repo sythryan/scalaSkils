@@ -16,4 +16,7 @@ class Rational (n: Int, d: Int) {
   def max(that: Rational): Rational = {
     if (this.lessThan(that)) that else this
   }
+  private def gcd(a: Int, b: Int): Int = {
+    if (b == 0) a else gcd(b, a % b)
+  }
 }
