@@ -1,10 +1,12 @@
 class Rational (n: Int, d: Int) {
-  private val g = gcd(n.abs, d.abs)
+  def this(n: Int) = this (n, 1)
+
+  require (d != 0)
+  private val g: Int = gcd(n.abs, d.abs)
+  override def toString = numer + "/" + denom
+
   val numer :Int = n / g
   val denom :Int = d / g
-  def this(n: Int) = this (n, 1)
-  require (d != 0)
-  override def toString = numer + "/" + denom
 
   def + (that: Rational): Rational =
     new Rational(
