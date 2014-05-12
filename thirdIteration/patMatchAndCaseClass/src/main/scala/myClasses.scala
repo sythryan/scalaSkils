@@ -1,3 +1,6 @@
-case class Numbers (myInt: Int)
-case class Strings (myString: String)
-case class UnaryFunction (myFunction: Any => Any)
+package patMatch
+
+sealed trait Values
+case class Numbers (myInt: Int) extends Values
+case class Strings (myString: String) extends Values
+case class UnaryFunction (myFunction: Any => Any) extends Values
