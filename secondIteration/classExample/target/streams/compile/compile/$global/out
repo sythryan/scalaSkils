@@ -16,7 +16,7 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/syth/scalaSkils/secondIteration/classExample/target/scala-2.10/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.3[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 1424367a, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 441e992a, interfacing (CompilerInterface) with Scala compiler version 2.10.3[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/syth/.sbt/boot/scala-2.10.3/lib/scala-library.jar[0m
