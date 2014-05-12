@@ -5,10 +5,9 @@ object main {
   def interpreter(x: Values) = x match {
     case x: Numbers => 
       print ("The value was Numbers and ")
-      if (x.myInt < 10) {
-        println (x.myInt + " is less than ten.")
-      } else {
-        println (x.myInt + " is greater than ten.")
+      x.myInt match {
+        case a if a < 10 => println (x.myInt + " is less than ten.")
+        case _           => println (x.myInt + " is greater than ten.")
       }
     case x: Strings => println ("The value was Strings: " + x.myString)
     case x: UnaryFunction => println ("The value was UnaryFunction: " + x.myFunction)
