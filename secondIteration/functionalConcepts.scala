@@ -7,13 +7,13 @@ object FunctionalConcepts {
   def decrement (x: Int): Int = add(x)(-1)
 
   def mapOverList(ints: List[Int], f: Int => Int): List[Int] = {
-    def innerMapOverList(ints: List[Int], f: Int => Int): List[Int] = {
+    def innerMapOverList(ints: List[Int], f: Int => Int, accumulator: List[Int]): List[Int] = {
       ints match {
-        case Nil => ints
-        case head :: tail => f(head) :: innerMapOverList(tail, f)
+        case Nil => accumulator
+        case head :: tail => innerMapOverList(tail, f, accumulator :+ f(head))
       }
     }
-    innerMapOverList (ints, f)
+    innerMapOverList (ints, f, List())
   }
 
   def main(args: Array[String]): Unit = {
