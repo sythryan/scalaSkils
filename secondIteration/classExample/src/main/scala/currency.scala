@@ -6,10 +6,10 @@ abstract class Currency {
 
 object Currency {
 
-  def dollar (bill: Double): Currency =
+  def dollar (bill: Double): Dollar =
     new Dollar (bill)
 
-  def coin (coinValue: Double): Currency =
+  def coin (coinValue: Double): Coin =
     new Coin (coinValue)
   
 }
