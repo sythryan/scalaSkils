@@ -39,15 +39,20 @@ object milestoneProject {
       recursiveFindUser(getAll)    
     }
 
-    // def findAllUsersAbove (balance: Double, users: List[User]): List[User] = {
-    //   def recursiveFindallUsersAbove(userList: List[User]): List[User] = userList.balance match {
-    //     case _ => 
-    //   }
-    // }
+    def findAllUsersAbove (balance: Double): List[User] = {
+      def recursiveFindallUsersAbove(userList: List[User], accumulator: List[User]): List[User] = userList match {
+        case Nil => accumulator
+        case head :: tail if (head.balance > balance) => recursiveFindallUsersAbove(tail, accumulator :+ head)
+        case head :: tail => recursiveFindallUsersAbove(tail, accumulator)
+      }
+      recursiveFindallUsersAbove(getAll, List())
+    }
+
+    def bankValue: Double = {
+      getAll.foldLeft(0.0) ((b, a) => b + a.balance)
+    }
   }
   
-// Find a single user by ID.
-// Find all users above a given balance
 // Find the value of the bank (that is, the sum of all balances from all users)
 // Add a list of transactions to a single user.
 }
