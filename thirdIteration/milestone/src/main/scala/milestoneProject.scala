@@ -30,7 +30,7 @@ object milestoneProject {
   }
 
   class userManipulator extends memoryBasedUserRepository {
-    def findUser(theID: String): Option[User] = theID {
+    def findUser(theID: String): Option[User] = {
       def recursiveFindUser(userList: List[User]): Option[User] = userList match {
         case Nil => None
         case head :: tail if (head.id == theID) => Some(head)
