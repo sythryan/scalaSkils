@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mcurrencySpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mwhen we call the factory method for dollar we should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m create an instance of dollar[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mwhen we call the factory method for coin we should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m create an instance of coin[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification currencySpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 21 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m2 examples, 0 failure, 0 error[0m[0m

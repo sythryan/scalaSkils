@@ -1,7 +1,11 @@
-name := "generic"
-   
-   libraryDependencies ++= Seq(
-     "net.sourceforge.htmlcleaner" % "htmlcleaner" % "2.2",
-     "org.apache.commons" % "commons-io" % "1.3.2",
-     "org.apache.httpcomponents" % "httpclient" % "4.1.2"
-   )
+name := "class-example"
+
+version := "1.0"
+
+scalaVersion := "2.10.1"
+
+libraryDependencies ++= Seq(
+  "org.specs2" %% "specs2" % "2.2.2" % "test"
+)
+
+parallelExecution in Test := false

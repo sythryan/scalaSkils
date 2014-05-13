@@ -1,0 +1,8 @@
+<moneyExample.currencySpec-results timestamp="1399988011874"><result location="moneyExample.currencySpec (currencySpec.scala:7)" id="1679417353"><stats time="68" expectations="1" failures="1" examples="1"></stats></result>
+</moneyExample.currencySpec-results>
+<moneyExample.currencySpec-stats timestamp="1399988011887"><stats time="23" expectations="1" failures="1" examples="1"></stats></moneyExample.currencySpec-stats>
+<moneyExample.currencySpec-stats timestamp="1399989485514"><stats time="21" expectations="1" successes="1" examples="1"><trend><stats time="21" failures="-1" successes="1"></stats></trend></stats></moneyExample.currencySpec-stats>
+<moneyExample.currencySpec-stats timestamp="1399989617525"><stats time="18" expectations="2" successes="2" examples="2"><trend><stats time="18" expectations="1" successes="1" examples="1"></stats></trend></stats></moneyExample.currencySpec-stats>
+<moneyExample.currencySpec-stats timestamp="1399990912417"><stats time="25" expectations="2" successes="2" examples="2"></stats></moneyExample.currencySpec-stats>
+<moneyExample.currencySpec-stats timestamp="1399990991104"><stats time="23" expectations="2" successes="2" examples="2"></stats></moneyExample.currencySpec-stats>
+<moneyExample.currencySpec-stats timestamp="1399991102272"><stats time="21" expectations="2" successes="2" examples="2"></stats></moneyExample.currencySpec-stats>

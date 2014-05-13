@@ -1,0 +1,7 @@
+[0m[[0mdebug[0m] [0mRunning TaskDef(moneyExample.currencySpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mRunning TaskDef(moneyExample.dollarSpec, specs2 Specification fingerprint, false, [SuiteSelector])[0m
+[0m[[0mdebug[0m] [0mSummary for specs2 not available.[0m
+[0m[[0minfo[0m] [0mPassed: Total 4, Failed 0, Errors 0, Passed 4[0m
+[0m[[0mdebug[0m] [0mPassed tests:[0m
+[0m[[0mdebug[0m] [0m	moneyExample.dollarSpec[0m
+[0m[[0mdebug[0m] [0m	moneyExample.currencySpec[0m

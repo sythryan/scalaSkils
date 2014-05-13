@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mdollarSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mwhen we set dollar to a value it should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m be equal to the set value[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mwhen we break our dollar into another dollar it should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m equal the new bill times the quantity[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification dollarSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 40 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m2 examples, 0 failure, 0 error[0m[0m
