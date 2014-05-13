@@ -1,0 +1,4 @@
+<moneyExample.coinSpec-results timestamp="1399992205585"><result location="moneyExample.coinSpec (coinSpec.scala:25)" id="695781511"><stats time="9" expectations="1" failures="1" examples="1"></stats></result>
+</moneyExample.coinSpec-results>
+<moneyExample.coinSpec-stats timestamp="1399992205586"><stats time="1" expectations="2" failures="1" successes="1" examples="2"></stats></moneyExample.coinSpec-stats>
+<moneyExample.coinSpec-stats timestamp="1399992311775"><stats time="1" expectations="2" successes="2" examples="2"><trend><stats time="1" failures="-1" successes="1"></stats></trend></stats></moneyExample.coinSpec-stats>

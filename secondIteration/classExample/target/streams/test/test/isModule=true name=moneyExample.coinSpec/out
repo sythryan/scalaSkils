@@ -1,0 +1,12 @@
+[0m[[0minfo[0m] [0mcoinSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mwhen we set coin to a value it should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m be equal to the set value[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mwhen we ask for the name of a coin it should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m provide us with the correct name[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification coinSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 1 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m2 examples, 0 failure, 0 error[0m[0m

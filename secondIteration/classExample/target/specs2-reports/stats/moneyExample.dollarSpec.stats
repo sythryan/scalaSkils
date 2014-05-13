@@ -6,3 +6,5 @@
 </moneyExample.dollarSpec-results>
 <moneyExample.dollarSpec-stats timestamp="1399990991212"><stats time="1" expectations="2" failures="1" successes="1" examples="2"><trend><stats time="1" failures="-1" successes="1"></stats></trend></stats></moneyExample.dollarSpec-stats>
 <moneyExample.dollarSpec-stats timestamp="1399991102427"><stats time="40" expectations="2" successes="2" examples="2"><trend><stats time="40" failures="-1" successes="1"></stats></trend></stats></moneyExample.dollarSpec-stats>
+<moneyExample.dollarSpec-stats timestamp="1399992205538"><stats time="1" expectations="2" successes="2" examples="2"></stats></moneyExample.dollarSpec-stats>
+<moneyExample.dollarSpec-stats timestamp="1399992311728"><stats time="1" expectations="2" successes="2" examples="2"></stats></moneyExample.dollarSpec-stats>

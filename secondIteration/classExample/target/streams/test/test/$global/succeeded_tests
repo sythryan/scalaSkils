@@ -1,4 +1,5 @@
 #Successful Tests
-#Tue May 13 09:25:02 CDT 2014
-moneyExample.dollarSpec=1399991102432
-moneyExample.currencySpec=1399991102308
+#Tue May 13 09:45:11 CDT 2014
+moneyExample.dollarSpec=1399992311735
+moneyExample.currencySpec=1399992311644
+moneyExample.coinSpec=1399992311786
