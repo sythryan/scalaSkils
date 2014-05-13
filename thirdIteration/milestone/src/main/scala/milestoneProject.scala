@@ -33,7 +33,8 @@ object milestoneProject {
     def findUser(theID: String): Option[User] = theID {
       def recursiveFindUser(userList: List[User]): Option[User] = userList match {
         case Nil => None
-        case head :: tail => if (head.id == theID) Some(head) else recursiveFindUser(tail)
+        case head :: tail if (head.id == theID) => Some(head)
+        case head :: tail => recursiveFindUser(tail)
       } 
       recursiveFindUser(getAll)    
     }
