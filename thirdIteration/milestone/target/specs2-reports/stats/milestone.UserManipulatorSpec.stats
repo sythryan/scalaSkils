@@ -1,0 +1,5 @@
+<milestone.UserManipulatorSpec-stats timestamp="1400014910753"><stats time="2"></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-stats timestamp="1400015156615"><stats time="2"><trend><stats time="2" expectations="-1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-results timestamp="1400015694048"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:32)" id="-1460249685"><stats time="85" expectations="1" errors="1" examples="1"></stats></result>
+</milestone.UserManipulatorSpec-results>
+<milestone.UserManipulatorSpec-stats timestamp="1400015694058"><stats time="20" expectations="1" errors="1" examples="1"><trend><stats time="20" errors="1" examples="1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>

@@ -1,0 +1,16 @@
+[0m[[0minfo[0m] [0mUserManipulatorSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mfind user one should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m return userOne[0m[0m
+[0m[[31merror[0m] [0m    RuntimeException: null (milestoneProject.scala:33)[0m
+[0m[[31merror[0m] [0mmilestone.UserManipulator$class.$init$(milestoneProject.scala:33)[0m
+[0m[[31merror[0m] [0mmilestone.UserManipulatorSpec$.<init>(userManipulatorSpec.scala:6)[0m
+[0m[[31merror[0m] [0msun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
+[0m[[31merror[0m] [0msun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)[0m
+[0m[[31merror[0m] [0msun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification UserManipulatorSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 20 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m1 example, 0 failure, 1 error[0m[0m
