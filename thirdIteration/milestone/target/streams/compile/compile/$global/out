@@ -1,8 +1,8 @@
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
-[0m[[0mdebug[0m] [0m	added: Set(/home/syth/scalaSkils/thirdIteration/milestone/src/main/scala/milestoneProject.scala)[0m
-[0m[[0mdebug[0m] [0m	modified: Set()[0m
+[0m[[0mdebug[0m] [0m	added: Set()[0m
+[0m[[0mdebug[0m] [0m	modified: Set(/home/syth/scalaSkils/thirdIteration/milestone/src/main/scala/milestoneProject.scala)[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set()[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
@@ -17,22 +17,15 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/syth/scalaSkils/thirdIteration/milestone/target/scala-2.10/classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.1[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.1[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 15f3b8c9, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3a965e76, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/syth/scalaSkils/thirdIteration/milestone/target/scala-2.10/classes[0m
-[0m[[31merror[0m] [0m/home/syth/scalaSkils/thirdIteration/milestone/src/main/scala/milestoneProject.scala:11: type mismatch;[0m
-[0m[[31merror[0m] [0m found   : Unit[0m
-[0m[[31merror[0m] [0m required: milestoneProject.User[0m
-[0m[[31merror[0m] [0m      memoryBasedUserRepository(x.id) = x[0m
+[0m[[31merror[0m] [0m/home/syth/scalaSkils/thirdIteration/milestone/src/main/scala/milestoneProject.scala:39: not found: value some[0m
+[0m[[31merror[0m] [0m            case a if (a == theID) => some(head)[0m
 [0m[[31merror[0m] [0m                                      ^[0m
-[0m[[31merror[0m] [0m/home/syth/scalaSkils/thirdIteration/milestone/src/main/scala/milestoneProject.scala:14: type mismatch;[0m
-[0m[[31merror[0m] [0m found   : Unit[0m
-[0m[[31merror[0m] [0m required: milestoneProject.User[0m
-[0m[[31merror[0m] [0m      memoryBasedUserRepository(x.id) = x[0m
-[0m[[31merror[0m] [0m                                      ^[0m
-[0m[[31merror[0m] [0mtwo errors found[0m
+[0m[[31merror[0m] [0mone error found[0m
 [0m[[0mdebug[0m] [0mCompilation failed (CompilerInterface)[0m
 [0m[[31merror[0m] [0m(compile:[31mcompile[0m) Compilation failed[0m
