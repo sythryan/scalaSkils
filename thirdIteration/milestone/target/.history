@@ -22,3 +22,13 @@ compile
 exit
 compile
 exit
+compile
+exit
+compile
+exit
+compile
+reload
+update
+compile
+test
+exit
