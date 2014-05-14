@@ -29,3 +29,4 @@
 <milestone.UserManipulatorSpec-stats timestamp="1400074627132"><stats time="29" expectations="8" successes="8" examples="8"><trend><stats time="29" expectations="1" successes="1" examples="1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
 <milestone.UserManipulatorSpec-stats timestamp="1400074863463"><stats time="20" expectations="9" successes="9" examples="9"><trend><stats time="20" expectations="1" successes="1" examples="1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
 <milestone.UserManipulatorSpec-stats timestamp="1400074960731"><stats time="24" expectations="9" successes="9" examples="9"></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-stats timestamp="1400075881745"><stats time="28" expectations="9" successes="9" examples="9"></stats></milestone.UserManipulatorSpec-stats>

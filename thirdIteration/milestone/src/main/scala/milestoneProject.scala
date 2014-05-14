@@ -30,6 +30,7 @@ trait MemoryBasedUserRepository  extends UserRepository {        //interface imp
 }
 
 trait UserManipulator extends MemoryBasedUserRepository {
+  val nonExistantUser = User("", "", 0.0, List())
 
   def findUser(theID: String): User = {
     def recursiveFindUser(userList: List[User]): Option[User] = userList match {
@@ -37,7 +38,7 @@ trait UserManipulator extends MemoryBasedUserRepository {
       case head :: tail if (head.id == theID) => Some(head)
       case head :: tail => recursiveFindUser(tail)
     } 
-    recursiveFindUser(getAll).getOrElse(User("", "", 0.0, List()))    
+    recursiveFindUser(getAll).getOrElse(nonExistantUser)    
   }
 
   def findAllUsersAbove (balance: Double): List[User] = {
@@ -56,7 +57,11 @@ trait UserManipulator extends MemoryBasedUserRepository {
   def addTransactions (theID: String, theTransactions: List[Transaction]): User = {
     val currentUser = findUser(theID)
     val updatedUser = User(currentUser.id, currentUser.name, currentUser.balance, currentUser.transactions ++ theTransactions)   
-    update(updatedUser)
-    updatedUser
+    if (currentUser != nonExistantUser){
+      update(updatedUser)
+      updatedUser
+    } else {
+      nonExistantUser
+    }
   }
 }
