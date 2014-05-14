@@ -67,3 +67,6 @@ exit
 compile
 test
 exit
+compile
+test
+exit
