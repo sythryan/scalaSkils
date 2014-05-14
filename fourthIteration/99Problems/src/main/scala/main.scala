@@ -26,9 +26,15 @@ object main {
     theList == theList.reverse
   }
 
+  def flatten[A](theList: List[A]): List[Any] = theList flatMap {  //had to look at answer
+    case a: List[_] => flatten(a)
+    case a => List(a) 
+  }
+
   def main(args: Array[String]): Unit = {
     val testList = List (1, 1, 2, 3, 5, 8)
     val palindromeList = List (1, 2, 3, 2, 1)
+    val nestedList = List (List(1, 1), 2, List(3, List(5, 8)))
     println("Last result       : " + last(testList))
     println("penultimate result: " + penultimate(testList))
     println("kth element result: " + nth(2, testList))
@@ -36,5 +42,6 @@ object main {
     println("reverse result    : " + reverse(testList))
     println("not palindrome    : " + isPalindrome(testList))
     println("is a palindrome   : " + isPalindrome(palindromeList))
+    println("flatten  result   : " + flatten(nestedList))
   }  
 }
