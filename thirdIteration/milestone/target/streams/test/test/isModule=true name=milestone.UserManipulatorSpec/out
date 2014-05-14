@@ -1,16 +1,33 @@
 [0m[[0minfo[0m] [0mUserManipulatorSpec[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mfind user one should[0m[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[37m[31m![0m return userOne[0m[0m
-[0m[[31merror[0m] [0m    RuntimeException: null (milestoneProject.scala:33)[0m
-[0m[[31merror[0m] [0mmilestone.UserManipulator$class.$init$(milestoneProject.scala:33)[0m
-[0m[[31merror[0m] [0mmilestone.UserManipulatorSpec$.<init>(userManipulatorSpec.scala:6)[0m
-[0m[[31merror[0m] [0msun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)[0m
-[0m[[31merror[0m] [0msun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)[0m
-[0m[[31merror[0m] [0msun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)[0m
-[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return userOne[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mfind user two should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return userTwo[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mfind user three should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return userThree[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mfinding a user that does not exist should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return an empty user[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mfind users with balances above $100.00 should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return userTwo and userThree[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mfind users with balances above $4,000.00 should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return an empty list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mbank value should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return $2514.39[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37madding transactions to a user should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return a user with transactions containing the previous and new ones[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37madding transactions to a user with no transactions should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return a user with only the transactions added[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification UserManipulatorSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 20 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m1 example, 0 failure, 1 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 24 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m9 examples, 0 failure, 0 error[0m[0m
