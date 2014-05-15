@@ -66,4 +66,11 @@ object ProblemsSpec extends Specification with problems{
         List((4,'a), (1,'b), (2,'c), (2,'a), (1,'d), (4,'e))
     }
   }
+
+  "Modified run-length encoding" should {
+    "if an element has no duplicates it is simply copied into the result list" in {
+      encodeModified(List('a, 'a, 'a, 'a, 'b, 'c, 'c, 'a, 'a, 'd, 'e, 'e, 'e, 'e)) ===
+        List((4,'a), 'b, (2,'c), (2,'a), 'd, (4,'e))
+    }
+  }
 }

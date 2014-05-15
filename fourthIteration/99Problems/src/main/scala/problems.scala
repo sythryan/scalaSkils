@@ -57,19 +57,24 @@ trait problems {
     innerPack(theList, List()) 
   }
 
-  def encode[A](theList: List[A]) = {
+  def encode[A](theList: List[A]): List[(Int, A)] = {
     def lengthList[A](packedList: List[List[A]], accumulator: List[Int]): List[Int] = packedList match {
       case head :: tail => lengthList(tail, accumulator :+ head.length)
       case Nil  => accumulator
     }
     def unPackSingleElems[A](packedList: List[List[A]], accumulator: List[A]): List[A] = packedList match {
-      case head :: tail if (head.length > 0) => unPackSingleElems(tail, accumulator :+ head.last) // just pulled out a non specific element from the list
+      case head :: tail => unPackSingleElems(tail, accumulator :+ head.last) // just pulled out a non specific element from the list
       case Nil => accumulator
     }        
     lengthList(pack(theList), List()).zip(unPackSingleElems(pack(theList), List()))
   }
 
-
-
-
+  def encodeModified[A](theList: List[A]): List[Any] = {
+    def pullOutSingles[A,B](theList: List[(A,B)], accumulator: List[Any]): List[Any] = theList match {
+      case head :: tail if (head._1 == 1) => pullOutSingles(tail, accumulator :+ head._2)
+      case head :: tail => pullOutSingles(tail, accumulator :+ head)
+      case Nil => accumulator
+    }
+    pullOutSingles(encode(theList), List())
+  }
 }
