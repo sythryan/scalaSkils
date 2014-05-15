@@ -1,0 +1,36 @@
+[0m[[0minfo[0m] [0mProblemsSpec[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mlast should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return the last element in a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mpenumulate should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m find the last but one element of a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mnth should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m find the nth element of a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mlength should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m find the number of elements of a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mreverse should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m reverse a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37misPalindrome should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Find out whether a list is a palindrome[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mflatten should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Flatten a nested list structure[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mcompress should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Eliminate consecutive duplicates of list elements[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mpack should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Pack consecutive duplicates of list elements into sublists[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mRun-length encoding of a list should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m encode consecutive duplicates in tuples[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
+[0m[[0minfo[0m] [0m[34mFinished in 22 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m10 examples, 0 failure, 0 error[0m[0m
