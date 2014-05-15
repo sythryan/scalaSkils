@@ -1,6 +1,6 @@
 package milestone
 
-case class User(id: String, name: String, balance: Double, transactions: List[Transaction])
+case class User(id: String, name: String, balance: Double, transactions: List[Transaction], overDrafts: Int, balanceHistory: List[Double])
 case class Transaction(id: String, amount: Double)
 
 trait UserRepository {       //interface
@@ -24,13 +24,15 @@ trait MemoryBasedUserRepository  extends UserRepository {        //interface imp
     x
   }
   def delete(x: User): User = {
-    userStorage -= x.id
+    if (userStorage.keySet.exists(_ == x.id)) {
+      userStorage -= x.id
+    }
     x
   }
 }
 
 trait UserManipulator extends MemoryBasedUserRepository {
-  val nonExistantUser = User("", "", 0.0, List())
+  val nonExistantUser = User("", "", 0.0, List(), 0, List())
 
   def findUser(theID: String): User = {
     def recursiveFindUser(userList: List[User]): Option[User] = userList match {
@@ -54,14 +56,19 @@ trait UserManipulator extends MemoryBasedUserRepository {
     BigDecimal(getAll.foldLeft(0.0) ((b, a) => b + a.balance)).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble
   }
 
-  def addTransactions (theID: String, theTransactions: List[Transaction]): User = {
-    val currentUser = findUser(theID)
-    val updatedUser = User(currentUser.id, currentUser.name, currentUser.balance, currentUser.transactions ++ theTransactions)   
-    if (currentUser != nonExistantUser){
-      update(updatedUser)
-      updatedUser
-    } else {
-      nonExistantUser
+  def addTransactions (theID: String, theTransactions: List[Transaction]): Unit = {
+    def processOneTransaction (theID: String, theTransaction: Transaction): Unit = {
+      val currentUser = findUser(theID)
+      val newBalance = currentUser.balance - theTransaction.amount
+      if (newBalance <= 0) {
+        println("user  " + currentUser.name + "     has overdrawn")
+        update(User(currentUser.id, currentUser.name, newBalance, currentUser.transactions :+ theTransaction, 
+                    currentUser.overDrafts + 1, currentUser.balanceHistory :+ currentUser.balance))
+      } else {
+        update(User(currentUser.id, currentUser.name, newBalance, currentUser.transactions :+ theTransaction, 
+            currentUser.overDrafts, currentUser.balanceHistory :+ currentUser.balance))
+      }
     }
+    theTransactions.map(transaction => processOneTransaction(theID, transaction))
   }
 }

@@ -1,26 +1,44 @@
-// package milestone
+package milestone
 
-// object main {
+import scala.util.Random
 
-//   import scala.util.Random
+object main extends MemoryBasedUserRepository with UserManipulator {
 
-//   def def main(args: Array[String]): Unit = {
-//     ("1", "Joe", 55.34, List(Transaction("tran1", -23.43), Transaction("tran2", 43.00)))
-//     for (i <- 1 to 10) {
-//       val randomUser = User(Random.nextString(4), Random.nextString(8), )
-//       create(randomUser)
-//       for (i < 1 to 100){
-//         val functionToRun = Random(4)
-//         functionToRun match {
-//         case 1 => findUser(Random.nextString(4))
-//         case 2 =>
-//         case 3 =>
-//         case 4 => 
-//       }
+  def randomTransactionList: List[Transaction] = {
+    var Transactions: List[Transaction] = List()
+    for (i <- 1 to Random.nextInt(5)) {
+      Transactions = Transactions :+ Transaction (Random.nextString(10), Random.nextDouble * (Random.nextInt(401) - 200))
+    }
+    Transactions
+  }
 
-//       }
-      
-//     }
-    
-//   }
-// }
+  // users are always generated with a positive balance
+  def randomUser: User = 
+    User(Random.nextString(100), Random.nextString(8) + " " + Random.nextString(8), Random.nextDouble * Random.nextInt(100), randomTransactionList, 0, List())
+
+  def main(args: Array[String]): Unit = {
+
+    for (i <- 1 to 100) {
+      create(randomUser)
+    }
+
+    for (i <- 1 to 1000) {
+      val chosenUser = getAll(Random.nextInt(getAll.length))
+      addTransactions(chosenUser.id, randomTransactionList)
+    }
+
+    println()
+    println("----------- User Balances ------------")
+    val theUser = getAll
+    for (i <- 0 to 99) {
+      println(theUser(i).name)
+      println("Current Balance : $" + BigDecimal(theUser(i).balance).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble.toString)
+      println("Over drafts     : " + theUser(i).overDrafts)
+      println("     -- Balance History -- ")
+      for (y <- 0 to theUser(i).balanceHistory.length - 1) {
+        println("     $" + BigDecimal(theUser(i).balanceHistory(y)).setScale(2, BigDecimal.RoundingMode.HALF_UP).toDouble.toString)
+      }
+      println("--------------------------------------------------")
+    }
+  } 
+}

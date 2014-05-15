@@ -19,15 +19,25 @@
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m return an empty list[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mbank value should[0m[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return $2514.39[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m return $2514.39[0m[0m
+[0m[[31merror[0m] [0m   '2514.39' is not equal to '2509.39' (userManipulatorSpec.scala:56)[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37madding transactions to a user should[0m[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return a user with transactions containing the previous and new ones[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m return a user with transactions containing the previous and new ones[0m[0m
+[0m[[31merror[0m] [0m   '()' is not equal to 'User(1,Joe,55.34,List(Transaction(tran1,-23.43), Transaction(tran2,43.0), Transaction(tran3,5.0)),0,List(55.34, 60.34))' (userManipulatorSpec.scala:62)[0m
+[0m[[31merror[0m] [0mExpected: User(1,Joe,55.34,List(Transaction(tran1,-23.43), Transaction(tran2,43.0), Transaction(tran3,5.0)),0,List(55.34, 60.34))[0m
+[0m[[31merror[0m] [0mActual:   ()[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37madding transactions to a user with no transactions should[0m[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return a user with only the transactions added[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m return a user with only the transactions added[0m[0m
+[0m[[31merror[0m] [0m   '()' is not equal to 'User(3,Mildred,403.67,List(Transaction(tran1,-23.43), Transaction(tran2,43.0)),0,List(403.67))' (userManipulatorSpec.scala:69)[0m
+[0m[[31merror[0m] [0mExpected: User(3,Mildred,403.67,List(Transaction(tran1,-23.43), Transaction(tran2,43.0)),0,List(403.67))[0m
+[0m[[31merror[0m] [0mActual:   ()[0m
+[0m[[0minfo[0m] [0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification UserManipulatorSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 27 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m9 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 21 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m9 examples, 3 failures, 0 error[0m[0m
