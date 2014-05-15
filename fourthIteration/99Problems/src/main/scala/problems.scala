@@ -21,7 +21,11 @@ trait problems {
   }
 
   def reverse[A](theList: List[A]): List[A] = {
-    theList.reverse
+    def innerReverse[A](theList: List[A], accumulator: List[A]): List [A] = theList match {
+      case head :: tail => innerReverse(tail, head :: accumulator)
+      case Nil => accumulator
+    }
+    innerReverse(theList, List())
   }
 
   def isPalindrome[A](theList: List[A]): Boolean = {
@@ -54,12 +58,14 @@ trait problems {
       case head :: tail => lengthList(tail, accumulator :+ head.length)
       case Nil  => accumulator
     }
-    def unPackSingleElem[A](packedList: List[List[A]], accumulator: List[A]): List[A] = packedList match {
-      case head :: tail if (head.length > 0) => unPackSingleElem(tail, accumulator :+ head.last) // just pulled out an element from the list
+    def unPackSingleElems[A](packedList: List[List[A]], accumulator: List[A]): List[A] = packedList match {
+      case head :: tail if (head.length > 0) => unPackSingleElems(tail, accumulator :+ head.last) // just pulled out an element from the list
       case Nil => accumulator
     }        
-    lengthList(pack(theList), List()).zip(unPackSingleElem(pack(theList), List()))
+    lengthList(pack(theList), List()).zip(unPackSingleElems(pack(theList), List()))
   }
 
-  
+
+
+
 }

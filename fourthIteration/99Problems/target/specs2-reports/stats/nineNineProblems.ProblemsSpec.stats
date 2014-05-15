@@ -18,3 +18,5 @@
 </nineNineProblems.ProblemsSpec-results>
 <nineNineProblems.ProblemsSpec-stats timestamp="1400165959720"><stats time="22" expectations="10" errors="1" successes="9" examples="10"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1400166022700"><stats time="22" expectations="10" successes="10" examples="10"><trend><stats time="22" errors="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1400166239800"><stats time="23" expectations="10" successes="10" examples="10"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1400166594640"><stats time="72" expectations="10" successes="10" examples="10"></stats></nineNineProblems.ProblemsSpec-stats>
