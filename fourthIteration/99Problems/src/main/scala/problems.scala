@@ -17,7 +17,11 @@ trait problems {
   }
 
   def length[A](theList: List[A]): Int = {
-    theList.length
+    def innerLength[A](theList: List[A], accumulator: Int): Int = theList match {
+      case head :: tail => innerLength(tail, accumulator + 1)
+      case Nil => accumulator
+    }
+    innerLength(theList, 0)
   }
 
   def reverse[A](theList: List[A]): List[A] = {
@@ -29,7 +33,7 @@ trait problems {
   }
 
   def isPalindrome[A](theList: List[A]): Boolean = {
-    theList == theList.reverse
+    theList == reverse(theList)
   }
 
   def flatten[A](theList: List[A]): List[Any] = theList flatMap {  //had to look at answer
@@ -59,7 +63,7 @@ trait problems {
       case Nil  => accumulator
     }
     def unPackSingleElems[A](packedList: List[List[A]], accumulator: List[A]): List[A] = packedList match {
-      case head :: tail if (head.length > 0) => unPackSingleElems(tail, accumulator :+ head.last) // just pulled out an element from the list
+      case head :: tail if (head.length > 0) => unPackSingleElems(tail, accumulator :+ head.last) // just pulled out a non specific element from the list
       case Nil => accumulator
     }        
     lengthList(pack(theList), List()).zip(unPackSingleElems(pack(theList), List()))
