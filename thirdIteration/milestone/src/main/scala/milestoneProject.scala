@@ -59,7 +59,7 @@ trait UserManipulator extends MemoryBasedUserRepository {
   def addTransactions (theID: String, theTransactions: List[Transaction]): Unit = {
     def processOneTransaction (theID: String, theTransaction: Transaction): Unit = {
       val currentUser = findUser(theID)
-      val newBalance = currentUser.balance - theTransaction.amount
+      val newBalance = currentUser.balance + theTransaction.amount
       if (newBalance <= 0) {
         println("user  " + currentUser.name + "     has overdrawn")
         update(User(currentUser.id, currentUser.name, newBalance, currentUser.transactions :+ theTransaction, 

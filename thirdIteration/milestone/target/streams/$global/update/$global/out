@@ -7,7 +7,7 @@
 [0m[[0mdebug[0m] [0m== resolving dependencies for milestone-project#milestone-project_2.10;1.0 [compile][0m
 [0m[[0mdebug[0m] [0m== resolving dependencies milestone-project#milestone-project_2.10;1.0->org.scala-lang#scala-library;2.10.1 [compile->default(compile)][0m
 [0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.1 ...[0m
-[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@28e0db68[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@12642ee[0m
 [0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0m	local: revision in cache: org.scala-lang#scala-library;2.10.1[0m
 [0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.1 in sbt-chain[0m
@@ -269,7 +269,7 @@
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.1!scala-reflect.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.1!jline.jar[0m
 [0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
-[0m[[0mdebug[0m] [0m:: resolution report :: resolve 156ms :: artifacts dl 8ms[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 346ms :: artifacts dl 9ms[0m
 [0m[[0mdebug[0m] [0m	report for milestone-project#milestone-project_2.10;1.0 compile produced in /home/syth/scalaSkils/thirdIteration/milestone/target/resolution-cache/reports/milestone-project-milestone-project_2.10-compile.xml[0m
 [0m[[0mdebug[0m] [0m	report for milestone-project#milestone-project_2.10;1.0 runtime produced in /home/syth/scalaSkils/thirdIteration/milestone/target/resolution-cache/reports/milestone-project-milestone-project_2.10-runtime.xml[0m
 [0m[[0mdebug[0m] [0m	report for milestone-project#milestone-project_2.10;1.0 test produced in /home/syth/scalaSkils/thirdIteration/milestone/target/resolution-cache/reports/milestone-project-milestone-project_2.10-test.xml[0m
@@ -283,5 +283,5 @@
 [0m[[0mdebug[0m] [0m	report for milestone-project#milestone-project_2.10;1.0 docs produced in /home/syth/scalaSkils/thirdIteration/milestone/target/resolution-cache/reports/milestone-project-milestone-project_2.10-docs.xml[0m
 [0m[[0mdebug[0m] [0m	report for milestone-project#milestone-project_2.10;1.0 pom produced in /home/syth/scalaSkils/thirdIteration/milestone/target/resolution-cache/reports/milestone-project-milestone-project_2.10-pom.xml[0m
 [0m[[0mdebug[0m] [0m	report for milestone-project#milestone-project_2.10;1.0 scala-tool produced in /home/syth/scalaSkils/thirdIteration/milestone/target/resolution-cache/reports/milestone-project-milestone-project_2.10-scala-tool.xml[0m
-[0m[[0mdebug[0m] [0m	resolve done (156ms resolve - 8ms download)[0m
+[0m[[0mdebug[0m] [0m	resolve done (346ms resolve - 9ms download)[0m
 [0m[[0minfo[0m] [0mDone updating.[0m

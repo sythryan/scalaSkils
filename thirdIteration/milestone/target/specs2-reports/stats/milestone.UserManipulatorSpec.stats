@@ -1,9 +1,11 @@
-<milestone.UserManipulatorSpec-results timestamp="1400190519109"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:61)" id="301438805"><stats time="54" expectations="1" failures="1" examples="1"></stats></result>
-<result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:68)" id="-550099100"><stats time="2" expectations="1" failures="1" examples="1"></stats></result>
+<milestone.UserManipulatorSpec-results timestamp="1400250298364"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:19)" id="-1460249685"><stats time="137" expectations="1" failures="1" examples="1"></stats></result>
 </milestone.UserManipulatorSpec-results>
-<milestone.UserManipulatorSpec-stats timestamp="1400190519123"><stats time="22" expectations="9" failures="2" successes="7" examples="9"></stats></milestone.UserManipulatorSpec-stats>
-<milestone.UserManipulatorSpec-results timestamp="1400190560675"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:55)" id="-745076230"><stats time="83" expectations="1" failures="1" examples="1"></stats></result>
-<result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:61)" id="301438805"><stats time="83" expectations="1" failures="1" examples="1"></stats></result>
-<result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:68)" id="-550099100"><stats time="3" expectations="1" failures="1" examples="1"></stats></result>
+<milestone.UserManipulatorSpec-stats timestamp="1400250298368"><stats time="21" expectations="9" failures="1" successes="8" examples="9"></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-results timestamp="1400250456780"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:29)" id="1158813091"><stats time="164" expectations="1" failures="1" examples="1"></stats></result>
+<result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:41)" id="2057535291"><stats time="163" expectations="1" failures="1" examples="1"></stats></result>
+<result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:53)" id="-744927275"><stats time="163" expectations="1" failures="1" examples="1"></stats></result>
 </milestone.UserManipulatorSpec-results>
-<milestone.UserManipulatorSpec-stats timestamp="1400190560680"><stats time="21" expectations="9" failures="3" successes="6" examples="9"><trend><stats time="21" failures="1" successes="-1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-stats timestamp="1400250456782"><stats time="26" expectations="8" failures="3" successes="5" examples="8"><trend><stats time="26" expectations="-1" failures="2" successes="-3" examples="-1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-results timestamp="1400250494188"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:17)" id="-1460249685"><stats time="135" expectations="1" failures="1" examples="1"></stats></result>
+</milestone.UserManipulatorSpec-results>
+<milestone.UserManipulatorSpec-stats timestamp="1400250494192"><stats time="26" expectations="9" failures="1" successes="8" examples="9"><trend><stats time="26" expectations="1" failures="-2" successes="3" examples="1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>

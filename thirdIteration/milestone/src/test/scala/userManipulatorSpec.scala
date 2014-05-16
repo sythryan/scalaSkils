@@ -5,11 +5,9 @@ import org.specs2.specification.{Scope, After, BeforeAfterEach}
 
 object UserManipulatorSpec extends Specification with UserManipulator {
 
-  // case class User(id: String, name: String, balance: Double, transactions: List[Transaction], overDrafts: Int, balanceHistory: List[Double])
-
-  val userOne = User("1", "Joe", 55.34, List(Transaction("tran1", -23.43), Transaction("tran2", 43.00)), 0, List(55.34))
-  val userTwo = User("2", "Haley", 2055.38, List(Transaction("tran1", 205.01)), 0, List(2055.38))
-  val userThree = User("3", "Mildred", 403.67, List(), 0, List(403.67)) //
+  val userOne = User("1", "Joe", 55.34, List(Transaction("tran1", -23.43), Transaction("tran2", 43.00)), 0, List())
+  val userTwo = User("2", "Haley", 2055.38, List(Transaction("tran1", 205.01)), 0, List())
+  val userThree = User("3", "Mildred", 403.67, List(), 0, List())
 
   create(userOne)
   create(userTwo)
@@ -52,22 +50,23 @@ object UserManipulatorSpec extends Specification with UserManipulator {
   }
 
   "bank value" should {
-    "return $2514.39" in {
-      2514.39 === bankValue
+    "return $2519.39" in {
+       bankValue === 2519.39
     }
   }
 
   "adding transactions to a user" should {
     "return a user with transactions containing the previous and new ones" in {
-      addTransactions("1", List (Transaction("tran3", 5.0))) === 
-        User("1", "Joe", 55.34, List(Transaction("tran1", -23.43), Transaction("tran2", 43.00), Transaction("tran3", 5.0)), 0, List(55.34, 60.34))
+      addTransactions("1", List (Transaction("tran3", 5.0))) 
+      findUser("1") === User("1", "Joe", 60.34, List(Transaction("tran1", -23.43), Transaction("tran2", 43.0), Transaction("tran3", 5.0)), 0, List(55.34))
     }
   }
 
   "adding transactions to a user with no transactions" should {
     "return a user with only the transactions added" in {
-      addTransactions("3", List(Transaction("tran1", -23.43), Transaction("tran2", 43.00))) ===
-        User("3", "Mildred", 403.67, List(Transaction("tran1", -23.43), Transaction("tran2", 43.00)), 0, List(403.67))
+      addTransactions("3", List(Transaction("tran1", -23.43)))
+      findUser("3") ===
+        User("3", "Mildred", 380.24, List(Transaction("tran1", -23.43)), 0, List(403.67))
     }
   } 
 }

@@ -141,3 +141,16 @@ test
 compile
 test
 exit
+compile
+test
+compile
+test
+compile
+test
+compile
+test
+clean
+update
+reload
+test
+exit
