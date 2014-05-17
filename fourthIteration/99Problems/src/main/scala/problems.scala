@@ -77,4 +77,21 @@ trait problems {
     }
     pullOutSingles(encode(theList), List())
   }
+
+  def decode[A,B](theList: List[(A,B)]): List[B] = {
+    def multiplyElement[A](elem : A, by: Int): List [A] ={
+      var accumulator: List[A] = List()
+      for (i <- 1 to by) {
+        accumulator = accumulator ::: List(elem)
+      }
+      accumulator
+    }
+    def innerDecode[A,B](theList: List[(A,B)], accumulator: List[B]): List[B] = theList match {
+      case head :: tail => innerDecode(tail, accumulator :+ multiplyElement(head._2, head._1))
+      case Nil => accumulator
+    }
+    innerDecode(theList,)
+  }
+
+
 }

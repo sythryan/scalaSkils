@@ -70,3 +70,5 @@ test
 compile
 test
 exit
+compile
+exit
