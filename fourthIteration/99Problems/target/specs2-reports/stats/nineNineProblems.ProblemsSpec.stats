@@ -23,3 +23,7 @@
 <nineNineProblems.ProblemsSpec-stats timestamp="1400166728760"><stats time="36" expectations="10" successes="10" examples="10"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1400167367650"><stats time="21" expectations="10" successes="10" examples="10"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1400170036683"><stats time="28" expectations="11" successes="11" examples="11"><trend><stats time="28" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1400355145306"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:78)" id="1540179507"><stats time="8" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1400355145324"><stats time="27" expectations="12" failures="1" successes="11" examples="12"><trend><stats time="27" expectations="1" failures="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1400355392625"><stats time="44" expectations="12" successes="12" examples="12"><trend><stats time="44" failures="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>

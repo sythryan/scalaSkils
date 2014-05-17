@@ -2,11 +2,11 @@
 [0m[[0mdebug[0m] [0mInitial source changes: [0m
 [0m[[0mdebug[0m] [0m	removed:Set()[0m
 [0m[[0mdebug[0m] [0m	added: Set()[0m
-[0m[[0mdebug[0m] [0m	modified: Set(/home/syth/scalaSkils/fourthIteration/99Problems/src/test/scala/problemsSpec.scala)[0m
+[0m[[0mdebug[0m] [0m	modified: Set()[0m
 [0m[[0mdebug[0m] [0mRemoved products: Set()[0m
 [0m[[0mdebug[0m] [0mModified external sources: Set(nineNineProblems.problems)[0m
 [0m[[0mdebug[0m] [0mModified binary dependencies: Set()[0m
-[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set(/home/syth/scalaSkils/fourthIteration/99Problems/src/test/scala/problemsSpec.scala)[0m
+[0m[[0mdebug[0m] [0mInitial directly invalidated sources: Set()[0m
 [0m[[0mdebug[0m] [0m[0m
 [0m[[0mdebug[0m] [0mSources indirectly invalidated by:[0m
 [0m[[0mdebug[0m] [0m	product: Set()[0m
@@ -17,13 +17,13 @@
 [0m[[0minfo[0m] [0mCompiling 1 Scala source to /home/syth/scalaSkils/fourthIteration/99Problems/target/scala-2.10/test-classes...[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.1[0m
 [0m[[0mdebug[0m] [0mGetting compiler-interface from component compiler for Scala 2.10.1[0m
-[0m[[0mdebug[0m] [0mRunning cached compiler 62f5b9b6, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
+[0m[[0mdebug[0m] [0mRunning cached compiler 3d41d172, interfacing (CompilerInterface) with Scala compiler version 2.10.1[0m
 [0m[[0mdebug[0m] [0mCalling Scala compiler with arguments  (CompilerInterface):[0m
 [0m[[0mdebug[0m] [0m	-bootclasspath[0m
 [0m[[0mdebug[0m] [0m	/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/resources.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/sunrsasign.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jsse.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jce.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/charsets.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/netx.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/plugin.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rhino.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/lib/jfr.jar:/usr/lib/jvm/java-7-openjdk-amd64/jre/classes:/home/syth/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.10.1.jar[0m
 [0m[[0mdebug[0m] [0m	-classpath[0m
 [0m[[0mdebug[0m] [0m	/home/syth/scalaSkils/fourthIteration/99Problems/target/scala-2.10/test-classes:/home/syth/scalaSkils/fourthIteration/99Problems/target/scala-2.10/classes:/home/syth/.ivy2/cache/org.specs2/specs2_2.10/jars/specs2_2.10-2.2.2.jar:/home/syth/.ivy2/cache/org.scalaz/scalaz-core_2.10/bundles/scalaz-core_2.10-7.0.2.jar:/home/syth/.ivy2/cache/org.scalaz/scalaz-concurrent_2.10/bundles/scalaz-concurrent_2.10-7.0.2.jar:/home/syth/.ivy2/cache/org.scalaz/scalaz-effect_2.10/bundles/scalaz-effect_2.10-7.0.2.jar[0m
-[0m[[0mdebug[0m] [0mScala compilation took 3.048809762 s[0m
+[0m[[0mdebug[0m] [0mScala compilation took 3.967406464 s[0m
 [0m[[0mdebug[0m] [0mInvalidated by transitive public inheritance: Set(/home/syth/scalaSkils/fourthIteration/99Problems/src/test/scala/problemsSpec.scala)[0m
 [0m[[0mdebug[0m] [0mInvalidated by direct dependency: Set()[0m
 [0m[[0mdebug[0m] [0mNew invalidations:[0m
