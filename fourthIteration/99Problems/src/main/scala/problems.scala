@@ -117,4 +117,20 @@ trait problems {
 
   def duplicateN[A](n: Int, theList: List[A]): List[A] =
     theList flatMap {e => List.make(n,e)}
+
+  def drop[A](n: Int, theList: List[A]): List[A] = { // had to look at solution
+    theList.zipWithIndex filter { v => (v._2 + 1) % n != 0 } map { _._1 }
+  }
+    // zipWithIndex is creating a tuple, example (a, 0) (a, 1)
+
+  def split[A](n: Int, theList: List[A]): (List[A], List[A]) = {
+    def innerSplit[A](indexedList: List[(A, Int)], accumulatorOne: List[A], accumulatorTwo: List[A] ): (List[A], List[A]) = indexedList match {
+      case head :: tail if (head._2 + 1 > n) => innerSplit(tail, accumulatorOne, accumulatorTwo :+ head._1)
+      case head :: tail => innerSplit(tail, accumulatorOne :+ head._1, accumulatorTwo)
+      case Nil => (accumulatorOne, accumulatorTwo)
+    }
+    innerSplit(theList.zipWithIndex, List(), List())
+  }
+
+  // could simply use theList.splitAt(n)
 }

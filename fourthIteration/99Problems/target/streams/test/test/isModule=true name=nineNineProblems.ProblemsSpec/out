@@ -45,7 +45,13 @@
 [0m[[0minfo[0m] [0m[37m[0m[37mduplicateN should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m duplicate each element in a list n times[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mdrop should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Drop every Nth element from a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37msplit should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m split a list into two parts[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 22 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m15 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 28 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m17 examples, 0 failure, 0 error[0m[0m
