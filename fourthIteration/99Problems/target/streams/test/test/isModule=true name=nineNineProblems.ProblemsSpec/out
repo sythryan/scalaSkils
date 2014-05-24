@@ -36,7 +36,10 @@
 [0m[[0minfo[0m] [0m[37m[0m[37mDecode a run-length encoded list should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m construct its uncompressed version[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mencodeDirect should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m run-length encode a list directly[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 44 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m12 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 33 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m13 examples, 0 failure, 0 error[0m[0m

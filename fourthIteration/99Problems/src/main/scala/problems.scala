@@ -78,7 +78,7 @@ trait problems {
     pullOutSingles(encode(theList), List())
   }
 
-  def decode[A](theList: List[(Int,A)]): List[A] = {
+  def decode[A](theList: List[(Int,A)]): List[A] = {     // could use a flat map here
     def multiplyElement[A](elem : A, by: Int): List [A] ={
       var accumulator: List[A] = List()
       for (i <- 1 to by) {
@@ -92,6 +92,19 @@ trait problems {
     }
     innerDecode(theList,List())
   }
+   
+  def encodeDirect[A](ls: List[A]): List[(Int, A)] = {  // had to look at solution
+    if (ls.isEmpty) Nil
+    else {
+      val (packed, next) = ls span { _ == ls.head }
+      (packed.length, packed.head) :: encodeDirect(next)
+    }
+  }
+
+// in repel
+// val (packed, next) = ls span { _ == ls.head }
+// packed: List[Symbol] = List('a, 'a)
+// next: List[Symbol] = List('b, 'c, 'g)
 
 
 }
