@@ -100,11 +100,18 @@ trait problems {
       (packed.length, packed.head) :: encodeDirect(next)
     }
   }
+        // in repel  ^^
+        // val (packed, next) = ls span { _ == ls.head }
+        // packed: List[Symbol] = List('a, 'a)
+        // next: List[Symbol] = List('b, 'c, 'g)
+        
+  def duplicate[A](theList: List[A]): List[A] = {
+    def innerDuplicate[A](theList: List[A], accumulator: List[A]): List[A] = theList match {
+      case head :: tail => innerDuplicate(tail, accumulator :+ head :+ head)
+      case Nil => accumulator
+    }
+    innerDuplicate(theList, List())
+  }
 
-// in repel
-// val (packed, next) = ls span { _ == ls.head }
-// packed: List[Symbol] = List('a, 'a)
-// next: List[Symbol] = List('b, 'c, 'g)
-
-
+  // flat map solution ^ def duplicate[A](ls: List[A]): List[A] = ls flatMap { e => List(e, e) }
 }
