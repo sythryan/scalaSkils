@@ -114,4 +114,7 @@ trait problems {
   }
 
   // flat map solution ^ def duplicate[A](ls: List[A]): List[A] = ls flatMap { e => List(e, e) }
+
+  def duplicateN[A](n: Int, theList: List[A]): List[A] =
+    theList flatMap {e => List.make(n,e)}
 }

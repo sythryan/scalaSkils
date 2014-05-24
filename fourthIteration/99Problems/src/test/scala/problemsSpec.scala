@@ -93,4 +93,10 @@ object ProblemsSpec extends Specification with problems{
       duplicate(List('a, 'b, 'c, 'c, 'd)) === List('a, 'a, 'b, 'b, 'c, 'c, 'c, 'c, 'd, 'd)
     }
   }
+
+  "duplicateN" should {
+    "duplicate each element in a list n times" in {
+      duplicateN(3, List('a, 'b, 'c, 'c, 'd)) === List('a, 'a, 'a, 'b, 'b, 'b, 'c, 'c, 'c, 'c, 'c, 'c, 'd, 'd, 'd)
+    }
+  }
 }
