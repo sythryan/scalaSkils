@@ -134,4 +134,12 @@ object ProblemsSpec extends Specification with problems{
       removeAt(1, List('a, 'b, 'c, 'd)) === (List('a, 'c, 'd),'b)
     }
   }
+
+  "insertAt" should {
+    "Insert an element at a given position into a list" in {
+      insertAt('new, 1, List('a, 'b, 'c, 'd)) === List('a, 'new, 'b, 'c, 'd)
+    }
+  }
+
+
 }

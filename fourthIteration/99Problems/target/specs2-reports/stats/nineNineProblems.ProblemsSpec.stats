@@ -135,3 +135,4 @@
 </nineNineProblems.ProblemsSpec-results>
 <nineNineProblems.ProblemsSpec-stats timestamp="1401197342054"><stats time="25" expectations="21" failures="1" successes="20" examples="21"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1401197362744"><stats time="86" expectations="21" successes="21" examples="21"><trend><stats time="86" failures="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401223147635"><stats time="33" expectations="22" successes="22" examples="22"><trend><stats time="33" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>

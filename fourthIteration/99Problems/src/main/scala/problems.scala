@@ -153,4 +153,10 @@ trait problems {
   def removeAt[A](k: Int, theList: List[A]): (List[A],A) = {
     (theList.dropRight(theList.length-k) ::: theList.drop(k + 1), theList(k))
   }
+
+  def insertAt[A](elem: A, n: Int, theList: List[A]): List[A] = {
+    slice(0, n, theList) ::: List(elem) ::: slice(n, theList.length, theList)
+  }
+
+  
 }
