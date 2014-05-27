@@ -149,4 +149,8 @@ trait problems {
       movePart ::: theList.dropRight(-1 * n)
     }
   }
+
+  def removeAt[A](k: Int, theList: List[A]): (List[A],A) = {
+    (theList.dropRight(theList.length-k) ::: theList.drop(k + 1), theList(k))
+  }
 }

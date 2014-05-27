@@ -60,7 +60,10 @@
 [0m[[0minfo[0m] [0m[37m[0m[37mrotate should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m Rotate backwards[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mremoveAt should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Return the list and the removed element in a Tuple[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 24 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m20 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 86 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m21 examples, 0 failure, 0 error[0m[0m

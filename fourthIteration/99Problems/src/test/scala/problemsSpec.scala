@@ -128,4 +128,10 @@ object ProblemsSpec extends Specification with problems{
       rotate(-2, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) === List('j, 'k, 'a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i)
     }
   }
+
+  "removeAt" should {
+    "Return the list and the removed element in a Tuple" in {
+      removeAt(1, List('a, 'b, 'c, 'd)) === (List('a, 'c, 'd),'b)
+    }
+  }
 }
