@@ -35,3 +35,10 @@
 <nineNineProblems.ProblemsSpec-stats timestamp="1400968757686"><stats time="22" expectations="15" successes="15" examples="15"><trend><stats time="22" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1400969522923"><stats time="40" expectations="16" successes="16" examples="16"><trend><stats time="40" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1400970851195"><stats time="28" expectations="17" successes="17" examples="17"><trend><stats time="28" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401194436268"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:116)" id="1229562983"><stats time="60" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401194436283"><stats time="30" expectations="18" failures="1" successes="17" examples="18"><trend><stats time="30" expectations="1" failures="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401194474285"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:116)" id="1229562983"><stats time="12" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401194474309"><stats time="23" expectations="18" failures="1" successes="17" examples="18"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401194527768"><stats time="29" expectations="18" successes="18" examples="18"><trend><stats time="29" failures="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
