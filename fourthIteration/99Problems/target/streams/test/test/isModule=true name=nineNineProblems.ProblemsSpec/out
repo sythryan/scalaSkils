@@ -69,7 +69,10 @@
 [0m[[0minfo[0m] [0m[37m[0m[37mrandomSelect should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m Extract a given number of randomly selected elements from a list[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mLotto should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Draw N different random numbers from the set 1..M.[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 27 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m23 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 31 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m24 examples, 0 failure, 0 error[0m[0m

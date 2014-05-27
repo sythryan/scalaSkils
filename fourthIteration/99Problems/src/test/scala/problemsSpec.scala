@@ -147,4 +147,10 @@ object ProblemsSpec extends Specification with problems{
     }
   }
 
+  "Lotto" should {
+    "Draw N different random numbers from the set 1..M." in {
+      lotto(6, 49).length === 6
+    }
+  }
+
 }

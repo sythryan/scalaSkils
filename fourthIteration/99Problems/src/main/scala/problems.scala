@@ -169,4 +169,12 @@ trait problems {
     innerRandomSelect(1, List(), theList)
   }
 
+  def lotto(n: Int, k: Int): List[Int] = {
+    import scala.util.Random
+    def innerLotto(iterations: Int, accumulator: List[Int]): List[Int] = iterations match {
+      case i if (i > n) => accumulator
+      case _ => innerLotto(iterations + 1, accumulator :+ Random.nextInt(k))
+    }
+    innerLotto(1, List())
+  }
 }
