@@ -54,7 +54,13 @@
 [0m[[0minfo[0m] [0m[37m[0m[37mslice should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m Extract a slice from a list[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mrotate should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Rotate a list N places to the left[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mrotate should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Rotate backwards[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 29 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m18 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 24 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m20 examples, 0 failure, 0 error[0m[0m

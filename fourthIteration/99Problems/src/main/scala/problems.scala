@@ -137,4 +137,16 @@ trait problems {
   def slice[A](i: Int, k: Int, theList: List[A]): List[A] = {
     theList.dropRight(theList.length - k).drop(i)
   }
+
+  def rotate[A](n: Int, theList: List[A]): List[A] = {
+    if (n > 0) {
+      val movePart = slice(0, n, theList) 
+      theList.drop(n) ::: movePart
+    } else if (n == 0) {
+      theList
+    } else {
+      val movePart = slice(theList.length + n, theList.length, theList)
+      movePart ::: theList.dropRight(-1 * n)
+    }
+  }
 }

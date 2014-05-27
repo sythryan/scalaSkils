@@ -42,3 +42,59 @@
 </nineNineProblems.ProblemsSpec-results>
 <nineNineProblems.ProblemsSpec-stats timestamp="1401194474309"><stats time="23" expectations="18" failures="1" successes="17" examples="18"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1401194527768"><stats time="29" expectations="18" successes="18" examples="18"><trend><stats time="29" failures="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195343206"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:122)" id="1430237111"><stats time="11" expectations="1" failures="1" examples="1"></stats></result>
+<result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="8" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195343231"><stats time="29" expectations="20" failures="2" successes="18" examples="20"><trend><stats time="29" expectations="2" failures="2" examples="2"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195438808"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:122)" id="1430237111"><stats time="10" expectations="1" failures="1" examples="1"></stats></result>
+<result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="9" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195438844"><stats time="24" expectations="20" failures="2" successes="18" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195553223"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:122)" id="1430237111"><stats time="10" expectations="1" failures="1" examples="1"></stats></result>
+<result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="7" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195553239"><stats time="26" expectations="20" failures="2" successes="18" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195591491"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:122)" id="1430237111"><stats time="9" expectations="1" failures="1" examples="1"></stats></result>
+<result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="8" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195591519"><stats time="29" expectations="20" failures="2" successes="18" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195635834"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="6" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195635856"><stats time="28" expectations="20" failures="1" successes="19" examples="20"><trend><stats time="28" failures="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195717254"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="10" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195717285"><stats time="30" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195904391"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="8" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195904415"><stats time="29" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401195964095"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="53" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401195964110"><stats time="26" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196009279"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="6" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196009316"><stats time="24" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196036367"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="6" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196036392"><stats time="28" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196075057"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="43" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196075087"><stats time="33" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196107466"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="13" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196107494"><stats time="47" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196267774"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="13" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196267805"><stats time="23" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196323298"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="7" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196323332"><stats time="25" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196387695"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="56" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196387717"><stats time="29" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196421543"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="9" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196421570"><stats time="26" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-results timestamp="1401196452574"><result location="nineNineProblems.ProblemsSpec (problemsSpec.scala:127)" id="63389835"><stats time="10" expectations="1" failures="1" examples="1"></stats></result>
+</nineNineProblems.ProblemsSpec-results>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196452592"><stats time="28" expectations="20" failures="1" successes="19" examples="20"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401196482734"><stats time="24" expectations="20" successes="20" examples="20"><trend><stats time="24" failures="-1" successes="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
