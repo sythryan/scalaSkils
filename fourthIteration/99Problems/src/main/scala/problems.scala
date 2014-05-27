@@ -158,5 +158,15 @@ trait problems {
     slice(0, n, theList) ::: List(elem) ::: slice(n, theList.length, theList)
   }
 
-  
+  def randomSelect[A](n: Int, theList: List[A]): List[A] = {
+    import scala.util.Random
+    def innerRandomSelect(iterations: Int, accumulator: List[A], remainingList: List[A]): List[A] = iterations match {
+      case i if (i > n) => accumulator
+      case _ => 
+        val removeIndex = Random.nextInt(remainingList.length)
+        innerRandomSelect(iterations + 1, accumulator :+ remainingList(removeIndex), removeAt(removeIndex, remainingList)._1)
+    }
+    innerRandomSelect(1, List(), theList)
+  }
+
 }

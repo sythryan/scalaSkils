@@ -66,7 +66,10 @@
 [0m[[0minfo[0m] [0m[37m[0m[37minsertAt should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m Insert an element at a given position into a list[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37mrandomSelect should[0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m Extract a given number of randomly selected elements from a list[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification ProblemsSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 33 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m22 examples, 0 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 27 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m23 examples, 0 failure, 0 error[0m[0m
