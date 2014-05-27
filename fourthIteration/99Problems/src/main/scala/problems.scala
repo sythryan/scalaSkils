@@ -177,4 +177,21 @@ trait problems {
     }
     innerLotto(1, List())
   }
+
+  def randomPermute[A](theList: List[A]): List[A] = {
+    println(theList)
+    println(randomSelect(theList.length, theList))
+    randomSelect(theList.length, theList)   
+  }
+
+  def combinations[A](n: Int, ls: List[A]): List[List[A]] = {
+    def flatMapSublists[A,B](ls: List[A])(f: (List[A]) => List[B]): List[B] = ls match {
+      case Nil => Nil
+      case sublist@(_ :: tail) => f(sublist) ::: flatMapSublists(tail)(f)
+    }
+
+    flatMapSublists(ls) { sl =>
+      combinations(n - 1, sl.tail) map {sl.head :: _}
+    }
+  }
 }

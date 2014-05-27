@@ -153,4 +153,10 @@ object ProblemsSpec extends Specification with problems{
     }
   }
 
+  "randomPermute" should {
+    "Generate a random permutation of the elements of a list" in {
+      randomPermute(List('a, 'b, 'c, 'd, 'e, 'f)).length === 6
+    }
+  }
+
 }

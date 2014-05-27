@@ -140,3 +140,6 @@
 <nineNineProblems.ProblemsSpec-stats timestamp="1401224214660"><stats time="27" expectations="23" successes="23" examples="23"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1401224226471"><stats time="27" expectations="23" successes="23" examples="23"></stats></nineNineProblems.ProblemsSpec-stats>
 <nineNineProblems.ProblemsSpec-stats timestamp="1401224899029"><stats time="31" expectations="24" successes="24" examples="24"><trend><stats time="31" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401225873209"><stats time="31" expectations="25" successes="25" examples="25"><trend><stats time="31" expectations="1" successes="1" examples="1"></stats></trend></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401225925061"><stats time="23" expectations="25" successes="25" examples="25"></stats></nineNineProblems.ProblemsSpec-stats>
+<nineNineProblems.ProblemsSpec-stats timestamp="1401225937726"><stats time="24" expectations="25" successes="25" examples="25"></stats></nineNineProblems.ProblemsSpec-stats>
