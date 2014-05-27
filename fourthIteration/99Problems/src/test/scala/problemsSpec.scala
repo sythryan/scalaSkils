@@ -111,4 +111,10 @@ object ProblemsSpec extends Specification with problems{
       split(3, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) === (List('a, 'b, 'c),List('d, 'e, 'f, 'g, 'h, 'i, 'j, 'k))
     }
   }
+
+  "slice" should {
+    "Extract a slice from a list" in {
+      slice(3, 7, List('a, 'b, 'c, 'd, 'e, 'f, 'g, 'h, 'i, 'j, 'k)) === List('d, 'e, 'f, 'g)
+    }
+  }
 }

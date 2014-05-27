@@ -133,4 +133,11 @@ trait problems {
   }
 
   // could simply use theList.splitAt(n)
+
+  def slice[A](i: Int, k: Int, theList: List[A]): List[A] = {
+    def innerSlice[A](indexedList: List[(A, Int)], accumulator): List[A] = theList match {
+      case head :: tail if (head._2 >)
+    }
+    theList(i to k)
+  }
 }
