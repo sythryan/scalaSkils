@@ -1,13 +1,7 @@
 [0m[[0minfo[0m] [0mUserManipulatorSpec[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mfind user one should[0m[37m[0m[0m
-[0m[[0minfo[0m] [0m[37m[0m[37m[33mx[0m return userOne[0m[0m
-[0m[[31merror[0m] [0m   'User(1,Joe,55.34,List(Transaction(tran1,-23.43), Transaction(tran2,43.0)),0,List())'[0m
-[0m[[31merror[0m] [0m    is not equal to [0m
-[0m[[31merror[0m] [0m   'User(1,Joe,60.34,List(Transaction(tran1,-23.43), Transaction(tran2,43.0), Transaction(tran3,5.0)),0,List(55.34))' (userManipulatorSpec.scala:18)[0m
-[0m[[31merror[0m] [0mExpected: ...,Joe,[60].3...0)[, Transaction(tran3,5.0])[)],0...t([55.34]))[0m
-[0m[[31merror[0m] [0mActual:   ...,Joe,[55].3...0)[])[],0...t([]))[0m
-[0m[[0minfo[0m] [0m[37m[0m[0m
+[0m[[0minfo[0m] [0m[37m[0m[32m+[0m return userOne[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37mfind user two should[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[32m+[0m return userTwo[37m[0m[0m
@@ -35,5 +29,5 @@
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0m[37m[0m[0m
 [0m[[0minfo[0m] [0m[37m[0mTotal for specification UserManipulatorSpec[0m
-[0m[[0minfo[0m] [0m[34mFinished in 26 ms[0m[0m
-[0m[[0minfo[0m] [0m[34m[0m[34m9 examples, 1 failure, 0 error[0m[0m
+[0m[[0minfo[0m] [0m[34mFinished in 47 ms[0m[0m
+[0m[[0minfo[0m] [0m[34m[0m[34m9 examples, 0 failure, 0 error[0m[0m

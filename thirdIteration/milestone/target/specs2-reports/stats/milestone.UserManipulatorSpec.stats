@@ -9,3 +9,4 @@
 <milestone.UserManipulatorSpec-results timestamp="1400250494188"><result location="milestone.UserManipulatorSpec (userManipulatorSpec.scala:17)" id="-1460249685"><stats time="135" expectations="1" failures="1" examples="1"></stats></result>
 </milestone.UserManipulatorSpec-results>
 <milestone.UserManipulatorSpec-stats timestamp="1400250494192"><stats time="26" expectations="9" failures="1" successes="8" examples="9"><trend><stats time="26" expectations="1" failures="-2" successes="3" examples="1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
+<milestone.UserManipulatorSpec-stats timestamp="1402331575360"><stats time="47" expectations="9" successes="9" examples="9"><trend><stats time="47" failures="-1" successes="1"></stats></trend></stats></milestone.UserManipulatorSpec-stats>
