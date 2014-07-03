@@ -60,3 +60,22 @@ exit
 compile
 run
 exit
+test
+re-start
+re-stop
+test
+re-start
+re-stop
+test
+re-start
+re-stop
+exit
+test
+re-start
+re-stop
+compile
+sbt compile
+compile
+sbt compile
+compile
+exit
