@@ -19,32 +19,14 @@ import scala.Console
 
 
 object retrieve {
-  
-	import fileWrite.write
-	import choices.choiceInput
-	
+
 	def main(args: Array[String]): Unit = {
 		val httpclient: HttpClient   = new DefaultHttpClient();
-    	val context:    HttpContext  = new BasicHttpContext
+    val context:    HttpContext  = new BasicHttpContext
     			
 		val httpGetOne = new HttpGet("http://www.theverge.com/rss/frontpage.xml")
 		val response =  XML.loadString(IOUtils.toString((httpclient.execute(httpGetOne, context).getEntity.getContent)))
-		
-		// output to file		
-		write("parsed.txt", response)
-		    
-		var input: Int = 9
-		
-		while (input != 0) {
 
-			println("Please enter a choice from the following menu: ")
-			println(" ( 1 ) - Show all")
-			println(" ( 2 ) - Search by title")
-			println(" ( 3 ) - Search by date")
-			println(" ( 0 ) - exit")
-		    
-			input = Console.readInt
-			choiceInput(input, "parsed.txt", response)
-		}
-	}
+		println(response)	
+	} 
 }

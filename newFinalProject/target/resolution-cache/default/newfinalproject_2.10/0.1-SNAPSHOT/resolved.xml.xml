@@ -4,7 +4,7 @@
 		module="newfinalproject_2.10"
 		revision="0.1-SNAPSHOT"
 		status="integration"
-		publication="20140617143356"
+		publication="20140702140318"
 	>
 		<description>
 		newfinalproject
@@ -32,8 +32,8 @@
 		<artifact name="newfinalproject_2.10" type="doc" ext="jar" conf="docs" e:classifier="javadoc"/>
 	</publications>
 	<dependencies>
-		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.3" conf="scala-tool->default,optional(default)"/>
-		<dependency org="org.scala-lang" name="scala-library" rev="2.10.3" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="org.scala-lang" name="scala-compiler" rev="2.10.4" conf="scala-tool->default,optional(default)"/>
+		<dependency org="org.scala-lang" name="scala-library" rev="2.10.4" conf="scala-tool->default,optional(default);compile->default(compile)"/>
 		<dependency org="net.sourceforge.htmlcleaner" name="htmlcleaner" rev="2.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.commons" name="commons-io" rev="1.3.2" conf="compile->default(compile)"/>
 		<dependency org="org.apache.httpcomponents" name="httpclient" rev="4.1.2" conf="compile->default(compile)"/>
