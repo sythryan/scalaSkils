@@ -79,3 +79,14 @@ compile
 sbt compile
 compile
 exit
+sbt test
+test
+re-start
+test
+re-start
+re-stop
+compile
+re-start
+re-stop
+compile
+exit
