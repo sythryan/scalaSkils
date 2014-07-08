@@ -10,32 +10,6 @@ import scala.xml.{XML, Elem, Node}
 import spray.json._
 import DefaultJsonProtocol._ 
 
-// implicit object ArticleFormat extends Format[TypeOfAccount] with FormMapping[TypeOfAccount] {
-//     def writes(value: TypeOfAccount) = JsObject(Seq(
-//       "totalAccess" -> toJson(value.totalAccess),
-//       "freeAccess" -> toJson(value.freeAccess),
-//       "completeAccess" -> toJson(value.completeAccess),
-//       "moneyMarket" -> toJson(value.moneyMarket),
-//       "accesspartner" -> toJson(value.accesspartner),
-//       "savings" -> toJson(value.savings)))
-
-//     def reads(json: JsValue) = tryJsonRead(TypeOfAccount(
-//       totalAccess = (json \ "totalAccess").as[Boolean],
-//       freeAccess = (json \ "freeAccess").as[Boolean],
-//       completeAccess = (json \ "completeAccess").as[Boolean],
-//       moneyMarket = (json \ "moneyMarket").as[Boolean],
-//       accesspartner = (json \ "accesspartner").as[Boolean],
-//       savings = (json \ "savings").as[Boolean]))
-
-//     def formMapping = mapping(
-//       "totalAccess" -> boolean,
-//       "freeAccess" -> boolean,
-//       "completeAccess" -> boolean,
-//       "moneyMarket" -> boolean,
-//       "accesspartner" -> boolean,
-//       "savings" -> boolean)(TypeOfAccount.apply)(TypeOfAccount.unapply)
-//   }
-
 case class Article (
   val id: String,
   val title: String,
@@ -52,27 +26,49 @@ object retrieve {
 
 	import MyJsonProtocol._
 
-	private[this] def parseArticles(feed: Elem) = {
-		def parseASingleArticle(parent: Node) = {
-			for {
-				published <- (parent \ "published")
-				updated <- (parent \ "updated")
-				title <- (parent \ "title")
-				id <- (parent \ "id")
-				author <- (parent \ "author" \ "name")
-			} yield {
-				Article(id.text, title.text, author.text, published.text, updated.text, "not implemented").toJson
-			} 
-		}	
-			(feed \\ "entry").toList.flatMap(parent => parseASingleArticle(parent))
+	private[this] def createAbstract(original: String): String = {
+		if (original.length > 20) original.slice(0, 20) else original
 	}
 
-	def loadNewXML = {
+	private[this] def parseASingleArticle(parent: Node) =
+		for {
+			published <- (parent \ "published")
+			updated <- (parent \ "updated")
+			title <- (parent \ "title")
+			id <- (parent \ "id")
+			author <- (parent \ "author" \ "name")
+		} yield {
+			Article(id.text, title.text, author.text, published.text, updated.text, createAbstract(title.text) + "...").toJson
+		} 
+	
+
+	private[this] def parseArticles(feed: Elem) = {
+		(feed \\ "entry").toList.flatMap(parent => parseASingleArticle(parent))
+	}
+
+	//needs generalization
+	def createResponse = {
 		val httpclient: HttpClient   = new DefaultHttpClient();
     val context:    HttpContext  = new BasicHttpContext
     			
 		val httpGetOne = new HttpGet("http://www.theverge.com/rss/frontpage.xml")
-		val response = XML.loadString(IOUtils.toString((httpclient.execute(httpGetOne, context).getEntity.getContent)))
-		parseArticles(response)
+		XML.loadString(IOUtils.toString((httpclient.execute(httpGetOne, context).getEntity.getContent)))
+	}
+
+	def loadparsedXML = {
+		parseArticles(createResponse)
 	} 
+
+	def searchTitles(searchString: String) = {
+	  var count = 0
+	  (createResponse \\ "entry").foreach { parent =>
+	  	if ((parent \ "title").text.toLowerCase().contains(searchString.toLowerCase())){
+				parseASingleArticle(parent)
+	  	  count += 1
+	  	}
+	  }
+	  if (count < 1){
+	  	"no matching searches"
+	  }
+	}
 }

@@ -29,7 +29,7 @@ trait MyService extends HttpService {
             <html>
               <body>
                   "articles":[
-                    {retrieve.loadNewXML}
+                    {retrieve.loadparsedXML}
                   ]
               </body>
             </html>
@@ -41,6 +41,13 @@ trait MyService extends HttpService {
       get {
         complete {
           "pong"
+        }
+      }
+    }~
+    path("") {
+      get {
+        complete {
+          "hello"
         }
       }
     }
