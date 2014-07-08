@@ -168,3 +168,19 @@ compile
 re-start
 re-stop
 exit
+re-start
+re-stop
+compile
+re-start
+re-stop
+compile
+re-start
+compile
+sbt compile
+compile
+re-start
+compile
+re-start
+re-stop
+compile
+exit

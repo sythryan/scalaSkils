@@ -50,6 +50,20 @@ trait MyService extends HttpService {
           "hello"
         }
       }
+    }~
+    (path("titles") & get) {
+      parameter("q") { searchString =>
+        respondWithMediaType(`text/html`) { // XML is marshalled to `text/xml` by default, so we simply override here
+          complete {
+            <html>
+              <body>
+                {retrieve.searchTitles(searchString)}
+              </body>
+            </html>
+          }
+        }
+      }
     }
+
   }
 }
